@@ -1,0 +1,768 @@
+{
+  "total": {
+    "value": 204
+  },
+  "positions": 235,
+  "query_time_in_millis": 3,
+  "result_time_in_millis": 18,
+  "stats": [],
+  "freetext_concepts": {
+    "skill": [
+      ".net"
+    ],
+    "occupation": [],
+    "trait": [],
+    "location": [],
+    "skill_must": [],
+    "occupation_must": [],
+    "trait_must": [],
+    "location_must": [],
+    "skill_must_not": [],
+    "occupation_must_not": [],
+    "trait_must_not": [],
+    "location_must_not": []
+  },
+  "hits": [
+    {
+      "relevance": 1.0,
+      "id": "31629336",
+      "external_id": null,
+      "original_id": null,
+      "label": [],
+      "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31629336",
+      "logo_url": null,
+      "headline": ".NET Developer",
+      "application_deadline": "2026-11-28T23:59:59",
+      "number_of_vacancies": 1,
+      "description": {
+        "text": "Software Engineer (C# / .NET)\nAbout the role\n We are looking for a Software Engineer with strong C# expertise who thrives on taking solutions all the way from design through implementation, testing, support and acceptance testing. You are enthusiastic, supportive of your teammates and value both people and shared team results.\nThe work centers on communication interfaces between vehicles and tools, including remote operation. The products cover the full lifecycle, from development and testing through manufacturing and workshops to remote use.\nYou will become part of a skilled, committed and self-organizing Scrum team that works according to agile principles. Everyone is expected to contribute across the team's activities, while also having room to specialize in areas that interest them. Close dialogue with stakeholders makes it possible to find common, reusable solutions that help customers succeed.\nResponsibilities\nDesign, implement and test software solutions in C#\nProvide support and take part in acceptance testing\nDevelop communication interfaces between vehicles and tools, including remote functionality\nContribute across the team's activities and collaborate directly with stakeholders to identify reusable solutions\n\nRequired skills and experience\nDevelopment experience across Android, iOS, Xamarin and MAUI\nPractical experience working with Scrum and agile methods\nExperience with MS Visual Studio, Git and DevOps\nAt least five years of software development in C# and .NET Core, with excellent development skills\nExperience in multithreaded programming\n\nMeritorious\nExperience designing and implementing communication protocols\nFamiliarity with diagnostic communication protocols such as ISO 14229 and SAE J1587\nExperience developing .NET applications in cloud environments using Azure and/or AWS",
+        "text_formatted": "<p><strong>Software Engineer (C# / .NET)</strong></p><p><strong>About the role</strong></p><p> We are looking for a Software Engineer with strong C# expertise who thrives on taking solutions all the way from design through implementation, testing, support and acceptance testing. You are enthusiastic, supportive of your teammates and value both people and shared team results.</p><p>The work centers on communication interfaces between vehicles and tools, including remote operation. The products cover the full lifecycle, from development and testing through manufacturing and workshops to remote use.</p><p>You will become part of a skilled, committed and self-organizing Scrum team that works according to agile principles. Everyone is expected to contribute across the team's activities, while also having room to specialize in areas that interest them. Close dialogue with stakeholders makes it possible to find common, reusable solutions that help customers succeed.</p><p><strong>Responsibilities</strong></p><ul><li>Design, implement and test software solutions in C#</li><li>Provide support and take part in acceptance testing</li><li>Develop communication interfaces between vehicles and tools, including remote functionality</li><li>Contribute across the team's activities and collaborate directly with stakeholders to identify reusable solutions</li></ul><p><strong>Required skills and experience</strong></p><ul><li>Development experience across Android, iOS, Xamarin and MAUI</li><li>Practical experience working with Scrum and agile methods</li><li>Experience with MS Visual Studio, Git and DevOps</li><li>At least five years of software development in C# and .NET Core, with excellent development skills</li><li>Experience in multithreaded programming</li></ul><p><strong>Meritorious</strong></p><ul><li>Experience designing and implementing communication protocols</li><li>Familiarity with diagnostic communication protocols such as ISO 14229 and SAE J1587</li><li>Experience developing .NET applications in cloud environments using Azure and/or AWS</li></ul><p><br></p>",
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": null
+      },
+      "employment_type": {
+        "concept_id": "sTu5_NBQ_udq",
+        "label": "Tidsbegränsad anställning",
+        "legacy_ams_taxonomy_id": null
+      },
+      "salary_type": {
+        "concept_id": "oG8G_9cW_nRf",
+        "label": "Fast månads- vecko- eller timlön",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_description": null,
+      "duration": {
+        "concept_id": "gJRb_akA_95y",
+        "label": "6 månader – upp till 12 månader",
+        "legacy_ams_taxonomy_id": "0"
+      },
+      "working_hours_type": {
+        "concept_id": "6YE1_gAC_R2G",
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "scope_of_work": {
+        "min": 100,
+        "max": 100
+      },
+      "access": null,
+      "employer": {
+        "phone_number": null,
+        "email": null,
+        "url": null,
+        "organization_number": "5593220733",
+        "name": "Rasulson Consulting AB",
+        "workplace": "Rasulson Consulting AB"
+      },
+      "application_details": {
+        "information": null,
+        "reference": null,
+        "email": null,
+        "via_af": false,
+        "url": "https://app.teamtailor.com/companies/zbu-mmYIt10@eu/jobs/8586908/stages",
+        "other": null
+      },
+      "experience_required": true,
+      "access_to_own_car": false,
+      "driving_license_required": false,
+      "driving_license": null,
+      "occupation": {
+        "concept_id": "wNG8_Rsg_RQc",
+        "label": "Systemansvarig",
+        "legacy_ams_taxonomy_id": "5996"
+      },
+      "occupation_group": {
+        "concept_id": "cBBa_ngH_fCx",
+        "label": "Systemförvaltare m.fl.",
+        "legacy_ams_taxonomy_id": "2515"
+      },
+      "occupation_field": {
+        "concept_id": "apaJ_2ja_LuF",
+        "label": "Data/IT",
+        "legacy_ams_taxonomy_id": "3"
+      },
+      "workplace_model": {
+        "concept_id": "ZxwM_gtz_n61",
+        "label": "Arbete på plats"
+      },
+      "workplace_address": {
+        "municipality": "Stockholm",
+        "municipality_code": "0180",
+        "municipality_concept_id": "AvNB_uwa_6n6",
+        "region": "Stockholms län",
+        "region_code": "01",
+        "region_concept_id": "CifL_Rzy_Mku",
+        "country": "Sverige",
+        "country_code": "199",
+        "country_concept_id": "i46j_HmG_v64",
+        "street_address": null,
+        "postcode": null,
+        "city": null,
+        "coordinates": [
+          null,
+          null
+        ]
+      },
+      "workplace_addresses": [
+        {
+          "municipality": "Stockholm",
+          "municipality_code": "0180",
+          "municipality_concept_id": "AvNB_uwa_6n6",
+          "region": "Stockholms län",
+          "region_code": "01",
+          "region_concept_id": "CifL_Rzy_Mku",
+          "country": "Sverige",
+          "country_code": "199",
+          "country_concept_id": "i46j_HmG_v64",
+          "street_address": null,
+          "postcode": null,
+          "city": null,
+          "coordinates": [
+            null,
+            null
+          ]
+        }
+      ],
+      "must_have": {
+        "skills": [],
+        "languages": [
+          {
+            "weight": 10,
+            "concept_id": "NVxJ_hLg_TYS",
+            "label": "Engelska",
+            "legacy_ams_taxonomy_id": "283"
+          }
+        ],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [],
+        "languages": [
+          {
+            "weight": 5,
+            "concept_id": "zSLA_vw2_FXN",
+            "label": "Svenska",
+            "legacy_ams_taxonomy_id": "502"
+          }
+        ],
+        "work_experiences": [
+          {
+            "weight": 5,
+            "concept_id": "wNG8_Rsg_RQc",
+            "label": "Systemansvarig",
+            "legacy_ams_taxonomy_id": "5996"
+          }
+        ],
+        "education": [],
+        "education_level": []
+      },
+      "application_contacts": [],
+      "publication_date": "2026-10-22T00:00:00",
+      "last_publication_date": "2026-11-28T23:59:59",
+      "removed": false,
+      "removed_date": null,
+      "source_type": "VIA_ANNONSERA",
+      "timestamp": 1792616950677
+    },
+    {
+      "relevance": 0.9780507861372612,
+      "id": "31691566",
+      "external_id": null,
+      "original_id": null,
+      "label": [],
+      "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31691566",
+      "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5569456659/logotyper/logo.png",
+      "headline": "Senior fullstackutvecklare .NET",
+      "application_deadline": "2026-11-23T23:59:59",
+      "number_of_vacancies": 1,
+      "description": {
+        "text": "Vi söker en Senior fullstackutvecklare .NET till ett spännande myndighetsprojekt.\nUppdragsbeskrivning\nMyndigheten söker en senior fullstackutvecklare till det pågående projektet Mina sidor med möjlighet till förlängning.\nMyndigheten har en blandad miljö av .Net och Java. Vi använder Openshift som plattform med Azure Devops som utvecklingsverktyg. Deras utvecklingsmetodik är Scrum. Du kommer följa Livsmedelsverkets arbetssätt och metoder.\nObligatoriska krav\nMinst fem års erfarenhet .NET\nMinst fem års erfarenhet av att bygga REST API\nMinst fem års erfarenhet av MS SQL\nMinst fem års erfarenhet av versionshantering i Git\nErfarenhet av React\nErfarenhet av att kommunicera och samarbeta med både tekniska och icke-tekniska intressenter\n\nMeriterande\nErfarenhet av Azure Deployment, serverless functions, containers (Docker, Kubernetes) CI/CD-pipelines med Azure DevOps\nErfarenhet av OpenShift\nErfarenhet av agentisk utveckling med Claude\nErfarenhet av att arbeta med integrationer är meriterande\nErfarenhet av agilt arbetssätt enligt Scrum\n\nDin ansökan\nLåter rollen intressant och passande? Ansök i så fall omgående för vi intervjuar löpande och rollen kan tillsättas innan sista ansökningsdatum.\nVi kan enbart ta emot och bearbeta din ansökan genom att du registrerar ditt CV i vår portal. Med avseende på GDPR kan vi ej ta emot ansökningar via e-post. Varmt välkommen med din ansökan! Uppdraget är en del av Quest Consulting personaluthyrning.\nOm oss\nQuest Consulting är ett auktoriserat konsultbolag med kollektivavtal, försäkringar, friskvård och tjänstepension. Vi är specialiserade inom IT, Teknik, HR, Administration och Ekonomi. Vår målsättning är att vara din personliga samarbetspartner och just därför är det så viktigt för oss att arbeta efter våra kärnvärden där våra ledord är att vara Personliga, Nyskapande och Professionella.",
+        "text_formatted": "<p>Vi söker en Senior fullstackutvecklare .NET till ett spännande myndighetsprojekt.</p><p><strong>Uppdragsbeskrivning</strong></p><p>Myndigheten söker en senior fullstackutvecklare till det pågående projektet Mina sidor med möjlighet till förlängning.</p><p>Myndigheten har en blandad miljö av .Net och Java. Vi använder Openshift som plattform med Azure Devops som utvecklingsverktyg. Deras utvecklingsmetodik är Scrum. Du kommer följa Livsmedelsverkets arbetssätt och metoder.</p><p><strong>Obligatoriska krav</strong></p><ul><li>Minst fem års erfarenhet .NET</li><li>Minst fem års erfarenhet av att bygga REST API</li><li>Minst fem års erfarenhet av MS SQL</li><li>Minst fem års erfarenhet av versionshantering i Git</li><li>Erfarenhet av React</li><li>Erfarenhet av att kommunicera och samarbeta med både tekniska och icke-tekniska intressenter</li></ul><p><strong>Meriterande</strong></p><ul><li>Erfarenhet av Azure Deployment, serverless functions, containers (Docker, Kubernetes) CI/CD-pipelines med Azure DevOps</li><li>Erfarenhet av OpenShift</li><li>Erfarenhet av agentisk utveckling med Claude</li><li>Erfarenhet av att arbeta med integrationer är meriterande</li><li>Erfarenhet av agilt arbetssätt enligt Scrum</li></ul><p><strong>Din ansökan</strong></p><p>Låter rollen intressant och passande? Ansök i så fall omgående för vi intervjuar löpande och rollen kan tillsättas innan sista ansökningsdatum.</p><p>Vi kan enbart ta emot och bearbeta din ansökan genom att du registrerar ditt CV i vår portal. Med avseende på GDPR kan vi ej ta emot ansökningar via e-post. Varmt välkommen med din ansökan! Uppdraget är en del av Quest Consulting personaluthyrning.</p><p><strong>Om oss</strong></p><p>Quest Consulting är ett auktoriserat konsultbolag med kollektivavtal, försäkringar, friskvård och tjänstepension. Vi är specialiserade inom IT, Teknik, HR, Administration och Ekonomi. Vår målsättning är att vara din personliga samarbetspartner och just därför är det så viktigt för oss att arbeta efter våra kärnvärden där våra ledord är att vara Personliga, Nyskapande och Professionella.</p>",
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": null
+      },
+      "employment_type": {
+        "concept_id": "PFZr_Syz_cUq",
+        "label": "Vanlig anställning",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_type": {
+        "concept_id": "oG8G_9cW_nRf",
+        "label": "Fast månads- vecko- eller timlön",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_description": null,
+      "duration": {
+        "concept_id": "a7uU_j21_mkL",
+        "label": "Tills vidare",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "working_hours_type": {
+        "concept_id": "6YE1_gAC_R2G",
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "scope_of_work": {
+        "min": 100,
+        "max": 100
+      },
+      "access": null,
+      "employer": {
+        "phone_number": null,
+        "email": null,
+        "url": null,
+        "organization_number": "5569456659",
+        "name": "Quest Consulting Sverige AB",
+        "workplace": "Quest Consulting Sverige AB"
+      },
+      "application_details": {
+        "information": null,
+        "reference": null,
+        "email": null,
+        "via_af": false,
+        "url": "https://pnty-apply.ponty-system.se/quest?id=8667&pnty_src=platsbanken",
+        "other": null
+      },
+      "experience_required": true,
+      "access_to_own_car": false,
+      "driving_license_required": false,
+      "driving_license": null,
+      "occupation": {
+        "concept_id": "fg7B_yov_smw",
+        "label": "Systemutvecklare/Programmerare",
+        "legacy_ams_taxonomy_id": "2419"
+      },
+      "occupation_group": {
+        "concept_id": "DJh5_yyF_hEM",
+        "label": "Mjukvaru- och systemutvecklare m.fl.",
+        "legacy_ams_taxonomy_id": "2512"
+      },
+      "occupation_field": {
+        "concept_id": "apaJ_2ja_LuF",
+        "label": "Data/IT",
+        "legacy_ams_taxonomy_id": "3"
+      },
+      "workplace_model": {
+        "concept_id": null,
+        "label": null
+      },
+      "workplace_address": {
+        "municipality": "Uppsala",
+        "municipality_code": "0380",
+        "municipality_concept_id": "otaF_bQY_4ZD",
+        "region": "Uppsala län",
+        "region_code": "03",
+        "region_concept_id": "zBon_eET_fFU",
+        "country": "Sverige",
+        "country_code": "199",
+        "country_concept_id": "i46j_HmG_v64",
+        "street_address": "Uppsala",
+        "postcode": "15362",
+        "city": "Uppsala",
+        "coordinates": [
+          17.638927,
+          59.858562
+        ]
+      },
+      "workplace_addresses": [
+        {
+          "municipality": "Uppsala",
+          "municipality_code": "0380",
+          "municipality_concept_id": "otaF_bQY_4ZD",
+          "region": "Uppsala län",
+          "region_code": "03",
+          "region_concept_id": "zBon_eET_fFU",
+          "country": "Sverige",
+          "country_code": "199",
+          "country_concept_id": "i46j_HmG_v64",
+          "street_address": "Uppsala",
+          "postcode": "15362",
+          "city": "Uppsala",
+          "coordinates": [
+            17.638927,
+            59.858562
+          ]
+        }
+      ],
+      "must_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "application_contacts": [],
+      "publication_date": "2026-11-05T15:10:09",
+      "last_publication_date": "2026-11-23T23:59:59",
+      "removed": false,
+      "removed_date": null,
+      "source_type": "VIA_JOBPOSTING",
+      "timestamp": 1793887809719
+    },
+    {
+      "relevance": 0.9780507861372612,
+      "id": "31643416",
+      "external_id": null,
+      "original_id": null,
+      "label": [],
+      "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31643416",
+      "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5565493268/logotyper/logo.png",
+      "headline": "Erfaren .NET systemutvecklare",
+      "application_deadline": "2027-04-24T23:59:59",
+      "number_of_vacancies": 4,
+      "description": {
+        "text": "Har du gedigen erfarenhet av .NET-utveckling, gillar att lösa komplexa tekniska problem och vill vara med och påverka hur en produkt utvecklas? Då kan CANEA vara rätt för dig.\n\nHos oss får du arbeta med vår egenutvecklade produkt CANEA ONE och bli en viktig del av ett erfaret utvecklingsteam. Du får ta dig an tekniska utmaningar, bidra med din kompetens och vara med och påverka både produktens utveckling och hur vi arbetar.\n\nVi söker dig som gillar att hitta genomtänkta lösningar, delar med dig av din kunskap och uppskattar att samarbeta med andra skickliga utvecklare. Hos CANEA får du frihet under ansvar, varierande arbetsuppgifter och möjlighet att göra verklig skillnad i utvecklingen av en etablerad produkt.\n\nSom systemutvecklare hos CANEA kommer du att:\n\nArbeta i en agil process där samarbete och kommunikation är avgörande.\nHantera hela spannet av produktutveckling – från buggrättningar och teknisk transition till att skapa helt nya möjligheter för våra kunder.\nVara med och utveckla våra arbetssätt och stärka teamets leveransförmåga.\nSamarbeta i ett Scrumteam och bidra i exempelvis dagliga standups, sprintplanering och retrospektiv.\nArbeta med hela utvecklingsprocessen, från specifikation och utveckling till kodgranskning och testning.\nFörbättra kodkvaliteten och åtgärda buggar.\nGenomföra tekniska övergångar och förbättringar i systemet.\nUtveckla nya funktioner och vidareutveckla befintliga funktioner.\n\n\nVi erbjuder\n\nIntressanta arbetsuppgifter och goda möjligheter att utvecklas i din roll.\nEngagerade och kunniga kollegor som gärna delar med sig av sin kunskap.\nEtt tryggt och stabilt produktbolag med tydlig tillväxt.\nEn positiv arbetsmiljö där idéer välkomnas och egna initiativ uppmuntras.\nFlexibilitet och goda förutsättningar för balans mellan arbete och fritid.\nMöjlighet att vara med och utforska hur AI kan användas i vårt utvecklingsarbete.\n\n\nVår produkt CANEA ONE: CANEA ONE är vår egenutvecklade, webbaserade plattform för effektiv verksamhetsledning. Här samlas bland annat dokument, projekt, ärenden, processer och mål i ett och samma system. Produkten bygger på C#, .NET/ASP.NET, MS SQL Server, Angular och JavaScript.\n\nVi utvecklar CANEA ONE långsiktigt och med ambitionen att hela tiden göra produkten bättre. Nu söker vi dig som vill vara med och ta nästa steg.\n\nVem är du?\n\nDu har en akademisk utbildning inom IT, gärna på master nivå.\nDu har flerårig kompetens inom C# och .NET.\nDu har erfarenhet av att arbeta i team med andra systemutvecklare.\nSom person är du engagerad, prestigelös och värdesätter ett gott samarbete.\n\n\nMeriterande om du har\n\nErfarenhet av att arbeta med JavaScript ramverk – Angular + TypeScript\nSQL server/Entity Framework\nArbetat med teknisk transtion\nAsp.net\nHTML/CSS\nUtveckling mha av Agentisk AI\n\n\nVi tror att du trivs bäst när du får utvecklas tillsammans med andra, utbyta kunskap och vara med och skapa riktigt bra lösningar.\n\nPå CANEA värdesätter vi mångfald och lika möjligheter. Vi välkomnar sökande med olika bakgrunder och erfarenheter.\n\nLåter det som något för dig? Då ser vi fram emot din ansökan!\n\nCANEA levererar varaktiga resultat genom att kombinera konsulttjänster, IT-lösningar och utbildningar.\n\nVi lever i en snabbt föränderlig värld där det ständigt ställs nya krav på en organisation. Vår filosofi är att ge företag och verksamheter de strategier, system, arbetssätt och den kompetens som skapar förutsättningar för framgång och säkerställer bästa resultat.\n\nVi jobbar tillsammans för fortsatt utveckling – av våra kunder, företaget och dig som medarbetare. För om du är väl rustad och trivs i din roll, skapar du också de bästa förutsättningarna för oss och våra kunder. Med utveckling i fokus arbetar vi för att möjliggöra en kreativ miljö för innovation oavsett om det gäller arbetssätt, våra produkter eller tjänster. Vi är prestigelösa och du uppmuntras att komma med idéer och driva dem fram till att de blir förverkligade.",
+        "text_formatted": "<p>Har du gedigen erfarenhet av .NET-utveckling, gillar att lösa komplexa tekniska problem och vill vara med och påverka hur en produkt utvecklas? Då kan CANEA vara rätt för dig.</p>\n<p>Hos oss får du arbeta med vår egenutvecklade produkt CANEA ONE och bli en viktig del av ett erfaret utvecklingsteam. Du får ta dig an tekniska utmaningar, bidra med din kompetens och vara med och påverka både produktens utveckling och hur vi arbetar.</p>\n<p>Vi söker dig som gillar att hitta genomtänkta lösningar, delar med dig av din kunskap och uppskattar att samarbeta med andra skickliga utvecklare. Hos CANEA får du frihet under ansvar, varierande arbetsuppgifter och möjlighet att göra verklig skillnad i utvecklingen av en etablerad produkt.</p>\n<p><strong>Som systemutvecklare hos CANEA kommer du att:</strong></p>\n<ul><li>Arbeta i en agil process där samarbete och kommunikation är avgörande.</li><li>Hantera hela spannet av produktutveckling – från buggrättningar och teknisk transition till att skapa helt nya möjligheter för våra kunder.</li><li>Vara med och utveckla våra arbetssätt och stärka teamets leveransförmåga.</li><li>Samarbeta i ett Scrumteam och bidra i exempelvis dagliga standups, sprintplanering och retrospektiv.</li><li>Arbeta med hela utvecklingsprocessen, från specifikation och utveckling till kodgranskning och testning.</li><li>Förbättra kodkvaliteten och åtgärda buggar.</li><li>Genomföra tekniska övergångar och förbättringar i systemet.</li><li>Utveckla nya funktioner och vidareutveckla befintliga funktioner.</li></ul>\n<p><strong>Vi erbjuder</strong></p>\n<ul><li>Intressanta arbetsuppgifter och goda möjligheter att utvecklas i din roll.</li><li>Engagerade och kunniga kollegor som gärna delar med sig av sin kunskap.</li><li>Ett tryggt och stabilt produktbolag med tydlig tillväxt.</li><li>En positiv arbetsmiljö där idéer välkomnas och egna initiativ uppmuntras.</li><li>Flexibilitet och goda förutsättningar för balans mellan arbete och fritid.</li><li>Möjlighet att vara med och utforska hur AI kan användas i vårt utvecklingsarbete.</li></ul>\n<p><strong>Vår produkt CANEA ONE</strong>: CANEA ONE är vår egenutvecklade, webbaserade plattform för effektiv verksamhetsledning. Här samlas bland annat dokument, projekt, ärenden, processer och mål i ett och samma system. Produkten bygger på C#, .NET/ASP.NET, MS SQL Server, Angular och JavaScript.</p>\n<p>Vi utvecklar CANEA ONE långsiktigt och med ambitionen att hela tiden göra produkten bättre. Nu söker vi dig som vill vara med och ta nästa steg.</p>\n\n<p><strong>Vem är du?</strong><strong></strong></p>\n<ul><li>Du har en akademisk utbildning inom IT, gärna på master nivå.</li><li>Du har flerårig kompetens inom C# och .NET.</li><li>Du har erfarenhet av att arbeta i team med andra systemutvecklare.</li><li>Som person är du engagerad, prestigelös och värdesätter ett gott samarbete.</li></ul>\n<p><strong>Meriterande om du har</strong></p>\n<ul><li>Erfarenhet av att arbeta med JavaScript ramverk – Angular + TypeScript</li><li>SQL server/Entity Framework</li><li>Arbetat med teknisk transtion</li><li>Asp.net</li><li>HTML/CSS</li><li>Utveckling mha av Agentisk AI</li></ul>\n<p>Vi tror att du trivs bäst när du får utvecklas tillsammans med andra, utbyta kunskap och vara med och skapa riktigt bra lösningar.</p>\n<p>På CANEA värdesätter vi mångfald och lika möjligheter. Vi välkomnar sökande med olika bakgrunder och erfarenheter.</p>\n<p>Låter det som något för dig?<strong> </strong>Då ser vi fram emot din ansökan!</p>\n\n\n<p>CANEA levererar varaktiga resultat genom att kombinera konsulttjänster, IT-lösningar och utbildningar.</p>\n<p>Vi lever i en snabbt föränderlig värld där det ständigt ställs nya krav på en organisation. Vår filosofi är att ge företag och verksamheter de strategier, system, arbetssätt och den kompetens som skapar förutsättningar för framgång och säkerställer bästa resultat.</p>\n<p>Vi jobbar tillsammans för fortsatt utveckling – av våra kunder, företaget och dig som medarbetare. För om du är väl rustad och trivs i din roll, skapar du också de bästa förutsättningarna för oss och våra kunder. Med utveckling i fokus arbetar vi för att möjliggöra en kreativ miljö för innovation oavsett om det gäller arbetssätt, våra produkter eller tjänster. Vi är prestigelösa och du uppmuntras att komma med idéer och driva dem fram till att de blir förverkligade.</p>",
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": null
+      },
+      "employment_type": {
+        "concept_id": "PFZr_Syz_cUq",
+        "label": "Vanlig anställning",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_type": {
+        "concept_id": "oG8G_9cW_nRf",
+        "label": "Fast månads- vecko- eller timlön",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_description": null,
+      "duration": {
+        "concept_id": "a7uU_j21_mkL",
+        "label": "Tills vidare",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "working_hours_type": {
+        "concept_id": "6YE1_gAC_R2G",
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "scope_of_work": {
+        "min": 100,
+        "max": 100
+      },
+      "access": null,
+      "employer": {
+        "phone_number": null,
+        "email": null,
+        "url": null,
+        "organization_number": "5565493268",
+        "name": "CANEA Partner Group Aktiebolag",
+        "workplace": "CANEA"
+      },
+      "application_details": {
+        "information": null,
+        "reference": null,
+        "email": null,
+        "via_af": false,
+        "url": null,
+        "other": "cv"
+      },
+      "experience_required": true,
+      "access_to_own_car": false,
+      "driving_license_required": false,
+      "driving_license": null,
+      "occupation": {
+        "concept_id": "fg7B_yov_smw",
+        "label": "Systemutvecklare/Programmerare",
+        "legacy_ams_taxonomy_id": "2419"
+      },
+      "occupation_group": {
+        "concept_id": "DJh5_yyF_hEM",
+        "label": "Mjukvaru- och systemutvecklare m.fl.",
+        "legacy_ams_taxonomy_id": "2512"
+      },
+      "occupation_field": {
+        "concept_id": "apaJ_2ja_LuF",
+        "label": "Data/IT",
+        "legacy_ams_taxonomy_id": "3"
+      },
+      "workplace_model": {
+        "concept_id": null,
+        "label": null
+      },
+      "workplace_address": {
+        "municipality": "Göteborg",
+        "municipality_code": "1480",
+        "municipality_concept_id": "PVZL_BQT_XtL",
+        "region": "Västra Götalands län",
+        "region_code": "14",
+        "region_concept_id": "zdoY_6u5_Krt",
+        "country": "Sverige",
+        "country_code": "199",
+        "country_concept_id": "i46j_HmG_v64",
+        "street_address": null,
+        "postcode": "41106",
+        "city": "Göteborg",
+        "coordinates": [
+          11.97281198847278,
+          57.706236995134596
+        ]
+      },
+      "workplace_addresses": [
+        {
+          "municipality": "Göteborg",
+          "municipality_code": "1480",
+          "municipality_concept_id": "PVZL_BQT_XtL",
+          "region": "Västra Götalands län",
+          "region_code": "14",
+          "region_concept_id": "zdoY_6u5_Krt",
+          "country": "Sverige",
+          "country_code": "199",
+          "country_concept_id": "i46j_HmG_v64",
+          "street_address": null,
+          "postcode": "41106",
+          "city": "Göteborg",
+          "coordinates": [
+            11.97281198847278,
+            57.706236995134596
+          ]
+        }
+      ],
+      "must_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "application_contacts": [],
+      "publication_date": "2026-10-26T10:31:52",
+      "last_publication_date": "2027-04-24T23:59:59",
+      "removed": false,
+      "removed_date": null,
+      "source_type": "VIA_JOBPOSTING",
+      "timestamp": 1793007112331
+    },
+    {
+      "relevance": 0.9780507861372612,
+      "id": "31642824",
+      "external_id": null,
+      "original_id": null,
+      "label": [],
+      "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31642824",
+      "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5565493268/logotyper/logo.png",
+      "headline": "Junior .NET utvecklare",
+      "application_deadline": "2027-04-24T23:59:59",
+      "number_of_vacancies": 1,
+      "description": {
+        "text": "Är du i början av din utvecklarkarriär och vill utvecklas tillsammans med ett erfaret team? Hos CANEA får du arbeta med en egenutvecklad produkt, omsätta dina kunskaper i praktiken och vara med och skapa smarta, hållbara lösningar.\n\nVi söker dig som är nyfiken, gillar att lösa problem och vill förstå hur teknik kan användas för att möta verkliga behov. Du behöver inte kunna allt från början – det viktigaste är att du vill lära dig, utforska nya idéer och hitta lösningar tillsammans med andra.\n\nHos oss får du utvecklas i din roll som utvecklare, lära av erfarna kollegor och vara delaktig i hela utvecklingsprocessen. Du får också möjlighet att utforska hur nya verktyg, inklusive AI, kan användas för att effektivisera arbetet och skapa bättre lösningar.\n\nDu blir en del av utvecklingsteamet bakom CANEA ONE, vår egenutvecklade plattform för verksamhetsledning. Här får du arbeta med riktiga utvecklingsprojekt, bidra med egna idéer och vara med och förbättra en produkt som hjälper organisationer att arbeta smartare.\n\nOm rollen\n\nDu får arbeta brett med systemutveckling och använda din tekniska kompetens för att lösa problem och utveckla CANEA ONE. Du blir delaktig i hela processen, från idé till färdig funktion. Bland annat kommer du att:\n\nSamarbeta i ett Scrumteam och delta i exempelvis dagliga standups, sprintplanering och retrospektiv.\nArbeta med hela utvecklingsprocessen, från specifikation och programmering till kodgranskning och testning.\nFörbättra kodkvaliteten och felsöka samt åtgärda buggar.\nBidra till tekniska förbättringar och modernisering av systemet.\nUtveckla nya funktioner och förbättra befintliga funktioner.\n\n\nVi erbjuder\n\nIntressanta arbetsuppgifter och goda möjligheter att utvecklas i din roll.\nEngagerade och kunniga kollegor som gärna delar med sig av sin kunskap.\nEtt tryggt och stabilt produktbolag med tydlig tillväxt.\nEn positiv arbetsmiljö där idéer välkomnas och egna initiativ uppmuntras.\nFlexibilitet och goda förutsättningar för balans mellan arbete och fritid.\nMöjlighet att vara med och utforska hur AI kan användas i vårt utvecklingsarbete.\n\n\nVår produkt CANEA ONE\n\nCANEA ONE är vår egenutvecklade, webbaserade plattform för verksamhetsledning. Här samlas bland annat dokument, projekt, ärenden, processer och mål i ett och samma system. Produkten bygger på C#, .NET/ASP.NET, MS SQL Server, Angular och JavaScript.\n\nVi utvecklar CANEA ONE långsiktigt och arbetar hela tiden för att göra produkten bättre. Nu söker vi dig som vill vara med, bidra med dina idéer och växa tillsammans med oss.\n\nVi söker dig som:\n\nHar en akademisk utbildning inom IT på minst kandidatnivå.\nMycket goda kunskaper i svenska, både i tal och skrift.\n\n\nDet är meriterande om du har:\n\nErfarenhet av utveckling i C# och .NET.\nErfarenhet av webbutveckling.\nErfarenhet av mjukvaruutveckling med hjälp av agentisk AI.\nErfarenhet av att samarbeta med andra utvecklare i team.\n\n\nTror du att du är rätt person?Då vill vi höra från dig!\n\nCANEA levererar varaktiga resultat genom att kombinera konsulttjänster, IT-lösningar och utbildningar.\n\nVi lever i en snabbt föränderlig värld där det ständigt ställs nya krav på en organisation. Vår filosofi är att ge företag och verksamheter de strategier, system, arbetssätt och den kompetens som skapar förutsättningar för framgång och säkerställer bästa resultat.\n\nVi jobbar tillsammans för fortsatt utveckling – av våra kunder, företaget och dig som medarbetare. För om du är väl rustad och trivs i din roll, skapar du också de bästa förutsättningarna för oss och våra kunder. Med utveckling i fokus arbetar vi för att möjliggöra en kreativ miljö för innovation oavsett om det gäller arbetssätt, våra produkter eller tjänster. Vi är prestigelösa och du uppmuntras att komma med idéer och driva dem fram till att de blir förverkligade.",
+        "text_formatted": "<p>Är du i början av din utvecklarkarriär och vill utvecklas tillsammans med ett erfaret team? Hos CANEA får du arbeta med en egenutvecklad produkt, omsätta dina kunskaper i praktiken och vara med och skapa smarta, hållbara lösningar.</p>\n<p>Vi söker dig som är nyfiken, gillar att lösa problem och vill förstå hur teknik kan användas för att möta verkliga behov. Du behöver inte kunna allt från början – det viktigaste är att du vill lära dig, utforska nya idéer och hitta lösningar tillsammans med andra.</p>\n<p>Hos oss får du utvecklas i din roll som utvecklare, lära av erfarna kollegor och vara delaktig i hela utvecklingsprocessen. Du får också möjlighet att utforska hur nya verktyg, inklusive AI, kan användas för att effektivisera arbetet och skapa bättre lösningar.</p>\n<p>Du blir en del av utvecklingsteamet bakom CANEA ONE, vår egenutvecklade plattform för verksamhetsledning. Här får du arbeta med riktiga utvecklingsprojekt, bidra med egna idéer och vara med och förbättra en produkt som hjälper organisationer att arbeta smartare.</p>\n<p><strong>Om rollen</strong></p>\n<p>Du får arbeta brett med systemutveckling och använda din tekniska kompetens för att lösa problem och utveckla CANEA ONE. Du blir delaktig i hela processen, från idé till färdig funktion. Bland annat kommer du att:</p>\n<ul><li>Samarbeta i ett Scrumteam och delta i exempelvis dagliga standups, sprintplanering och retrospektiv.</li><li>Arbeta med hela utvecklingsprocessen, från specifikation och programmering till kodgranskning och testning.</li><li>Förbättra kodkvaliteten och felsöka samt åtgärda buggar.</li><li>Bidra till tekniska förbättringar och modernisering av systemet.</li><li>Utveckla nya funktioner och förbättra befintliga funktioner.</li></ul>\n<p><strong>Vi erbjuder</strong></p>\n<ul><li>Intressanta arbetsuppgifter och goda möjligheter att utvecklas i din roll.</li><li>Engagerade och kunniga kollegor som gärna delar med sig av sin kunskap.</li><li>Ett tryggt och stabilt produktbolag med tydlig tillväxt.</li><li>En positiv arbetsmiljö där idéer välkomnas och egna initiativ uppmuntras.</li><li>Flexibilitet och goda förutsättningar för balans mellan arbete och fritid.</li><li>Möjlighet att vara med och utforska hur AI kan användas i vårt utvecklingsarbete.</li></ul>\n<p><strong>Vår produkt CANEA ONE</strong></p>\n<p>CANEA ONE är vår egenutvecklade, webbaserade plattform för verksamhetsledning. Här samlas bland annat dokument, projekt, ärenden, processer och mål i ett och samma system. Produkten bygger på C#, .NET/ASP.NET, MS SQL Server, Angular och JavaScript.</p>\n<p>Vi utvecklar CANEA ONE långsiktigt och arbetar hela tiden för att göra produkten bättre. Nu söker vi dig som vill vara med, bidra med dina idéer och växa tillsammans med oss.</p>\n\n<p>Vi söker dig som:</p>\n<ul><li>Har en akademisk utbildning inom IT på minst kandidatnivå.</li><li>Mycket goda kunskaper i svenska, både i tal och skrift.</li></ul>\n<p>Det är meriterande om du har:</p>\n<ul><li>Erfarenhet av utveckling i C# och .NET.</li><li>Erfarenhet av webbutveckling.</li><li>Erfarenhet av mjukvaruutveckling med hjälp av agentisk AI.</li><li>Erfarenhet av att samarbeta med andra utvecklare i team.</li></ul>\n<p>Tror du att du är rätt person?Då vill vi höra från dig!</p>\n\n<p>CANEA levererar varaktiga resultat genom att kombinera konsulttjänster, IT-lösningar och utbildningar.</p>\n<p>Vi lever i en snabbt föränderlig värld där det ständigt ställs nya krav på en organisation. Vår filosofi är att ge företag och verksamheter de strategier, system, arbetssätt och den kompetens som skapar förutsättningar för framgång och säkerställer bästa resultat.</p>\n<p>Vi jobbar tillsammans för fortsatt utveckling – av våra kunder, företaget och dig som medarbetare. För om du är väl rustad och trivs i din roll, skapar du också de bästa förutsättningarna för oss och våra kunder. Med utveckling i fokus arbetar vi för att möjliggöra en kreativ miljö för innovation oavsett om det gäller arbetssätt, våra produkter eller tjänster. Vi är prestigelösa och du uppmuntras att komma med idéer och driva dem fram till att de blir förverkligade.</p>",
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": null
+      },
+      "employment_type": {
+        "concept_id": "PFZr_Syz_cUq",
+        "label": "Vanlig anställning",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_type": {
+        "concept_id": "oG8G_9cW_nRf",
+        "label": "Fast månads- vecko- eller timlön",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_description": null,
+      "duration": {
+        "concept_id": "a7uU_j21_mkL",
+        "label": "Tills vidare",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "working_hours_type": {
+        "concept_id": "6YE1_gAC_R2G",
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "scope_of_work": {
+        "min": 100,
+        "max": 100
+      },
+      "access": null,
+      "employer": {
+        "phone_number": null,
+        "email": null,
+        "url": null,
+        "organization_number": "5565493268",
+        "name": "CANEA Partner Group Aktiebolag",
+        "workplace": "CANEA"
+      },
+      "application_details": {
+        "information": null,
+        "reference": null,
+        "email": null,
+        "via_af": false,
+        "url": null,
+        "other": "cv"
+      },
+      "experience_required": true,
+      "access_to_own_car": false,
+      "driving_license_required": false,
+      "driving_license": null,
+      "occupation": {
+        "concept_id": "fg7B_yov_smw",
+        "label": "Systemutvecklare/Programmerare",
+        "legacy_ams_taxonomy_id": "2419"
+      },
+      "occupation_group": {
+        "concept_id": "DJh5_yyF_hEM",
+        "label": "Mjukvaru- och systemutvecklare m.fl.",
+        "legacy_ams_taxonomy_id": "2512"
+      },
+      "occupation_field": {
+        "concept_id": "apaJ_2ja_LuF",
+        "label": "Data/IT",
+        "legacy_ams_taxonomy_id": "3"
+      },
+      "workplace_model": {
+        "concept_id": null,
+        "label": null
+      },
+      "workplace_address": {
+        "municipality": "Göteborg",
+        "municipality_code": "1480",
+        "municipality_concept_id": "PVZL_BQT_XtL",
+        "region": "Västra Götalands län",
+        "region_code": "14",
+        "region_concept_id": "zdoY_6u5_Krt",
+        "country": "Sverige",
+        "country_code": "199",
+        "country_concept_id": "i46j_HmG_v64",
+        "street_address": null,
+        "postcode": "41113",
+        "city": "Göteborg",
+        "coordinates": [
+          11.960398687326496,
+          57.70794749500312
+        ]
+      },
+      "workplace_addresses": [
+        {
+          "municipality": "Göteborg",
+          "municipality_code": "1480",
+          "municipality_concept_id": "PVZL_BQT_XtL",
+          "region": "Västra Götalands län",
+          "region_code": "14",
+          "region_concept_id": "zdoY_6u5_Krt",
+          "country": "Sverige",
+          "country_code": "199",
+          "country_concept_id": "i46j_HmG_v64",
+          "street_address": null,
+          "postcode": "41113",
+          "city": "Göteborg",
+          "coordinates": [
+            11.960398687326496,
+            57.70794749500312
+          ]
+        }
+      ],
+      "must_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "application_contacts": [],
+      "publication_date": "2026-10-26T09:30:46",
+      "last_publication_date": "2027-04-24T23:59:59",
+      "removed": false,
+      "removed_date": null,
+      "source_type": "VIA_JOBPOSTING",
+      "timestamp": 1793003446039
+    },
+    {
+      "relevance": 0.9780507861372612,
+      "id": "31493434",
+      "external_id": null,
+      "original_id": null,
+      "label": [],
+      "webpage_url": "https://arbetsformedlingen.se/platsbanken/annonser/31493434",
+      "logo_url": "https://arbetsformedlingen.se/rest/employer-logo-api/api/v1/organisation/5592833791/logotyper/logo.png",
+      "headline": "C# .NET Utvecklare",
+      "application_deadline": "2027-03-17T23:59:59",
+      "number_of_vacancies": 1,
+      "description": {
+        "text": "Jobbeskrivning\nVi söker en erfaren C# .NET utvecklare med minst 3 års erfarenhet och en civilingenjörsutbildning. Rollen kräver goda kunskaper inom utveckling i .NET-miljö och förmåga att arbeta självständigt och i team. Erfarenhet av molnplattformar som AWS, Azure eller GCP är meriterande, liksom vana av att använda verktyg som Claude Code eller Codex. Tjänsten kräver att du är svensktalande.\nUtveckla och underhålla programvara i C# .NET miljö\nSamarbeta med teamet för att leverera högkvalitativa lösningar\nAnvända molntjänster för att optimera applikationer där det är relevant\n\n \nBaskunskaper\nMinst 3 års erfarenhet av C# .NET utveckling\nCivilingenjörsutbildning\nSvensktalande\n\n \nPersonliga färdigheter, egenskaper, erfarenhet\nErfarenhet av molnplattformar såsom AWS, Azure eller GCP\nVana att använda kodstödjande verktyg såsom Claude Code eller Codex",
+        "text_formatted": "<p><strong>Jobbeskrivning</strong></p><p>Vi söker en erfaren C# .NET utvecklare med minst 3 års erfarenhet och en civilingenjörsutbildning. Rollen kräver goda kunskaper inom utveckling i .NET-miljö och förmåga att arbeta självständigt och i team. Erfarenhet av molnplattformar som AWS, Azure eller GCP är meriterande, liksom vana av att använda verktyg som Claude Code eller Codex. Tjänsten kräver att du är svensktalande.</p><ul><li>Utveckla och underhålla programvara i C# .NET miljö</li><li>Samarbeta med teamet för att leverera högkvalitativa lösningar</li><li>Använda molntjänster för att optimera applikationer där det är relevant</li></ul><p>&nbsp;</p><p><strong>Baskunskaper</strong></p><ul><li>Minst 3 års erfarenhet av C# .NET utveckling</li><li>Civilingenjörsutbildning</li><li>Svensktalande</li></ul><p>&nbsp;</p><p><strong>Personliga färdigheter, egenskaper, erfarenhet</strong></p><ul><li>Erfarenhet av molnplattformar såsom AWS, Azure eller GCP</li><li>Vana att använda kodstödjande verktyg såsom Claude Code eller Codex</li></ul><p>&nbsp;</p>",
+        "company_information": null,
+        "needs": null,
+        "requirements": null,
+        "conditions": null
+      },
+      "employment_type": {
+        "concept_id": "PFZr_Syz_cUq",
+        "label": "Vanlig anställning",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_type": {
+        "concept_id": "oG8G_9cW_nRf",
+        "label": "Fast månads- vecko- eller timlön",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "salary_description": null,
+      "duration": {
+        "concept_id": "a7uU_j21_mkL",
+        "label": "Tills vidare",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "working_hours_type": {
+        "concept_id": "6YE1_gAC_R2G",
+        "label": "Heltid",
+        "legacy_ams_taxonomy_id": "1"
+      },
+      "scope_of_work": {
+        "min": 100,
+        "max": 100
+      },
+      "access": null,
+      "employer": {
+        "phone_number": null,
+        "email": null,
+        "url": "https://www.sigma.se",
+        "organization_number": "5592833791",
+        "name": "Sigma Technology Software Solutions AB",
+        "workplace": "Sigma Technology Software Solutions"
+      },
+      "application_details": {
+        "information": null,
+        "reference": null,
+        "email": null,
+        "via_af": false,
+        "url": "https://sigma.se/sv/position/?id=profiler-positions-8365",
+        "other": null
+      },
+      "experience_required": true,
+      "access_to_own_car": false,
+      "driving_license_required": false,
+      "driving_license": null,
+      "occupation": {
+        "concept_id": "rQds_YGd_quU",
+        "label": "Mjukvaruutvecklare",
+        "legacy_ams_taxonomy_id": "80"
+      },
+      "occupation_group": {
+        "concept_id": "DJh5_yyF_hEM",
+        "label": "Mjukvaru- och systemutvecklare m.fl.",
+        "legacy_ams_taxonomy_id": "2512"
+      },
+      "occupation_field": {
+        "concept_id": "apaJ_2ja_LuF",
+        "label": "Data/IT",
+        "legacy_ams_taxonomy_id": "3"
+      },
+      "workplace_model": {
+        "concept_id": null,
+        "label": null
+      },
+      "workplace_address": {
+        "municipality": "Lund",
+        "municipality_code": "1281",
+        "municipality_concept_id": "muSY_tsR_vDZ",
+        "region": "Skåne län",
+        "region_code": "12",
+        "region_concept_id": "CaRE_1nn_cSU",
+        "country": "Sverige",
+        "country_code": "199",
+        "country_concept_id": "i46j_HmG_v64",
+        "street_address": null,
+        "postcode": "22229",
+        "city": "Lund",
+        "coordinates": [
+          13.185261668343664,
+          55.70019965672058
+        ]
+      },
+      "workplace_addresses": [
+        {
+          "municipality": "Lund",
+          "municipality_code": "1281",
+          "municipality_concept_id": "muSY_tsR_vDZ",
+          "region": "Skåne län",
+          "region_code": "12",
+          "region_concept_id": "CaRE_1nn_cSU",
+          "country": "Sverige",
+          "country_code": "199",
+          "country_concept_id": "i46j_HmG_v64",
+          "street_address": null,
+          "postcode": "22229",
+          "city": "Lund",
+          "coordinates": [
+            13.185261668343664,
+            55.70019965672058
+          ]
+        }
+      ],
+      "must_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "nice_to_have": {
+        "skills": [],
+        "languages": [],
+        "work_experiences": [],
+        "education": [],
+        "education_level": []
+      },
+      "application_contacts": [],
+      "publication_date": "2026-09-18T10:56:46",
+      "last_publication_date": "2027-03-17T23:59:59",
+      "removed": false,
+      "removed_date": null,
+      "source_type": "VIA_JOBPOSTING",
+      "timestamp": 1789721806381
+    }
+  ]
+}
