@@ -3,7 +3,12 @@ using JobbRadar.Models;
 
 namespace JobbRadar.Services;
 
-public record FilterOptions(IReadOnlyList<string> ExcludedHeadlineWords, int MaxYearsRequired);
+public class FilterOptions
+{
+    public List<string> ExcludedHeadlineWords { get; init; } = [];
+    public List<string> RequiredHeadlineWords { get; init; } = [];
+    public int MaxYearsRequired { get; init; } = 3;
+}
 
 public partial class JobFilter(FilterOptions options)
 {
@@ -39,11 +44,22 @@ public partial class JobFilter(FilterOptions options)
         RegexOptions.IgnoreCase)]
     private static partial Regex YearsRegex();
 
-    public IReadOnlyList<JobAd> Apply(IEnumerable<JobAd> ads) => ads.Where(IsRelevant).ToList();
+    public IReadOnlyList<JobAd> Apply(IEnumerable<JobAd> ads) => Apply(ads, DateTime.Today);
 
-    public bool IsRelevant(JobAd ad) =>
+    public IReadOnlyList<JobAd> Apply(IEnumerable<JobAd> ads, DateTime today) =>
+        ads.Where(ad => IsRelevant(ad, today)).ToList();
+
+    public bool IsRelevant(JobAd ad) => IsRelevant(ad, DateTime.Today);
+
+    public bool IsRelevant(JobAd ad, DateTime today) =>
+        HasRequiredHeadlineWord(ad.Headline) &&
         !HasExcludedHeadlineWord(ad.Headline) &&
-        MaxYearsRequired(ad.Description) <= options.MaxYearsRequired;
+        MaxYearsRequired(ad.Description) <= options.MaxYearsRequired &&
+        (ad.ApplicationDeadline is null || ad.ApplicationDeadline.Value.Date >= today.Date);
+
+    private bool HasRequiredHeadlineWord(string headline) =>
+        options.RequiredHeadlineWords.Count == 0 ||
+        options.RequiredHeadlineWords.Any(w => headline.Contains(w, StringComparison.OrdinalIgnoreCase));
 
     private bool HasExcludedHeadlineWord(string headline)
     {

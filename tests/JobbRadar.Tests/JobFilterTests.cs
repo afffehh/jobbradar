@@ -6,8 +6,17 @@ namespace JobbRadar.Tests;
 
 public class JobFilterTests
 {
-    private static readonly JobFilter Filter = new(new FilterOptions(
-    ["senior", "erfaren", "lead", "staff", "principal", "arkitekt", "architect", "java"], MaxYearsRequired: 3));
+    private static readonly JobFilter Filter = new(new FilterOptions
+    {
+        ExcludedHeadlineWords = ["senior", "erfaren", "lead", "staff", "principal", "arkitekt", "architect", "java"],
+        MaxYearsRequired = 3
+    });
+
+    private static readonly JobFilter StrictFilter = new(new FilterOptions
+    {
+        RequiredHeadlineWords = ["utvecklare", "developer", "engineer"],
+        MaxYearsRequired = 3
+    });
 
     private static JobAd Ad(string headline, string description = "") =>
         new("1", headline, "Test AB", "Stockholm", null, DateTime.Now, "https://example.com", description);
@@ -43,8 +52,27 @@ public class JobFilterTests
         var response = JsonSerializer.Deserialize<JobSearchResponse>(json, JobTechClient.JsonOptions)!;
         var ads = response.Hits.Select(JobTechClient.ToJobAd);
 
-        var kept = Filter.Apply(ads).Select(a => a.Headline).ToList();
+        var kept = Filter.Apply(ads, new DateTime(2026, 11, 18)).Select(a => a.Headline).ToList();
 
         Assert.Equal(["Junior .NET utvecklare", "C# .NET Utvecklare"], kept);
+    }
+
+    [Theory]
+    [InlineData("2nd Line Support - Onboarding & Partner Specialist", false)]
+    [InlineData("AI Adoption Specialist", false)]
+    [InlineData("Fullstackutvecklare till Hallon", true)]
+    [InlineData("Backend Developer", true)]
+    public void RequiresDeveloperHeadline(string headline, bool expected) =>
+    Assert.Equal(expected, StrictFilter.IsRelevant(Ad(headline)));
+
+    [Fact]
+    public void ExcludesAdsPastDeadline()
+    {
+        var today = new DateTime(2026, 11, 18);
+        var expired = Ad("Backend Developer") with { ApplicationDeadline = new DateTime(2026, 11, 17) };
+        var lastDay = Ad("Backend Developer") with { ApplicationDeadline = new DateTime(2026, 11, 18, 23, 59, 59) };
+
+        Assert.False(StrictFilter.IsRelevant(expired, today));
+        Assert.True(StrictFilter.IsRelevant(lastDay, today));
     }
 }
