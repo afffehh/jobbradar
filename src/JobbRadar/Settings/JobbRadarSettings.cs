@@ -6,6 +6,7 @@ public class JobbRadarSettings
 {
     public SearchSettings Search { get; init; } = new();
     public FilterOptions Filter { get; init; } = new();
+    public string SeenFile { get; init; } = "data/seen.json";
 }
 
 public class SearchSettings

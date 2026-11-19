@@ -19,9 +19,17 @@ var filter = new JobFilter(settings.Filter);
 var ads = await client.SearchAsync(settings.Search.Query, settings.Search.Region, settings.Search.Limit);
 var relevant = filter.Apply(ads, DateTime.Today);
 
-Console.WriteLine($"{relevant.Count} av {ads.Count} annonser passar:\n");
-foreach (var ad in relevant)
+var store = new SeenStore(settings.SeenFile);
+var seen = store.Load();
+var newAds = relevant.Where(ad => !seen.Contains(ad.Id)).ToList();
+
+Console.WriteLine($"{newAds.Count} nya av {relevant.Count} relevanta ({ads.Count} totalt):\n");
+foreach (var ad in newAds)
 {
     Console.WriteLine($"{ad.Headline} – {ad.Employer} ({ad.Municipality}), sista dag {ad.ApplicationDeadline:yyyy-MM-dd}");
     Console.WriteLine($"  {ad.Url}");
 }
+
+// När mejlet finns: spara först efter att mejlet har skickats, så att inga annonser tappas bort
+seen.UnionWith(newAds.Select(a => a.Id));
+store.Save(seen);
