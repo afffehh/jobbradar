@@ -23,13 +23,34 @@ var store = new SeenStore(settings.SeenFile);
 var seen = store.Load();
 var newAds = relevant.Where(ad => !seen.Contains(ad.Id)).ToList();
 
-Console.WriteLine($"{newAds.Count} nya av {relevant.Count} relevanta ({ads.Count} totalt):\n");
-foreach (var ad in newAds)
+Console.WriteLine($"{newAds.Count} nya av {relevant.Count} relevanta ({ads.Count} totalt).");
+
+if (newAds.Count == 0)
 {
-    Console.WriteLine($"{ad.Headline} – {ad.Employer} ({ad.Municipality}), sista dag {ad.ApplicationDeadline:yyyy-MM-dd}");
-    Console.WriteLine($"  {ad.Url}");
+    Console.WriteLine("Inga nya annonser – inget mejl skickas.");
+    return;
 }
 
-// När mejlet finns: spara först efter att mejlet har skickats, så att inga annonser tappas bort
+var email = new EmailSettings
+{
+    Host = config["Email:Host"] ?? "smtp.gmail.com",
+    Port = int.TryParse(config["Email:Port"], out var port) ? port : 587,
+    User = config["SMTP_USER"] ?? "",
+    Password = config["SMTP_PASSWORD"] ?? "",
+    To = config["MAIL_TO"] ?? ""
+};
+
+if (!email.IsConfigured)
+{
+    Console.WriteLine("SMTP_USER, SMTP_PASSWORD eller MAIL_TO saknas – visar bara i terminalen:\n");
+    foreach (var ad in newAds)
+        Console.WriteLine($"{ad.Headline} – {ad.Employer}\n  {ad.Url}");
+    return;
+}
+
+await new EmailSender(email).SendAsync(newAds);
+Console.WriteLine($"Mejl skickat till {email.To}.");
+
+// Spara först när mejlet har gått iväg, så att inga annonser tappas bort
 seen.UnionWith(newAds.Select(a => a.Id));
 store.Save(seen);
