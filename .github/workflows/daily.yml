@@ -1,0 +1,31 @@
+name: Daily job radar
+
+on:
+  schedule:
+    - cron: "0 6 * * 1-5"   # 06:00 UTC = 07:00 vintertid, 08:00 sommartid
+  workflow_dispatch:         # gör att du kan starta den för hand
+
+permissions:
+  contents: write            # behövs för att committa seen.json
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+      - run: dotnet test
+      - run: dotnet run --project src/JobbRadar
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+      - name: Spara sedda annonser
+        run: |
+          git config user.name "jobbradar-bot"
+          git config user.email "jobbradar-bot@users.noreply.github.com"
+          git add data/seen.json
+          git commit -m "Update seen jobs" || echo "Inga nya annonser"
+          git push
